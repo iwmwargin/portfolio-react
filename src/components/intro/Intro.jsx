@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="i">
         <div className="i-left">
             <div className="i-left-wrapper">
-                <h2 className="i-intro">Hello, My name is</h2>
+                <h2 className="i-intro">Hello! My name is</h2>
                 <h2 className="i-name">Eric Wargin</h2>
                 <div className="i-title">
                     <div className="i-title-wrapper">
@@ -16,10 +16,11 @@ const Intro = () => {
                         <div className="i-title-item">Business Manager</div>
                     </div>
                 </div>
-                <div className="i-desc">
-                    I am a recent UNC Coding Bootcamp Graduate with a background in restaurant management. 
-                </div>
+                <p className="i-desc">
+                    I am a recent UNC Coding Bootcamp Graduate with a background in restaurant management. I have decades of experience in managing people and product in the restaurant business.  I am new to the coding world but plan on using my previous experience, combined with the knowledge gained from the UNC Bootcamp, to become proficient in JavaScript, CSS/HTML, React, MongoDB and Node.JS. I enjoy problem solving and working with others to get .
+                </p>
             </div>
+
         </div>
         <div className="i-right">
             <div className="i-bg"></div>

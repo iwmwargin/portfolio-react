@@ -1,7 +1,21 @@
-import Intro from "./components/intro/Intro";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Intro from "./components/Intro/Intro";
+import Nav from "./components/Nav";
+import Header from "./components/Header";
+
 
 const App = () => {
-  return <div><Intro/></div>;
+  const [pages] = useState([
+    
+  ])
+  return (
+  <Router>
+  <Header><Nav/></Header>
+  <Intro/>
+
+  </Router>
+  );
 };
 
 export default App;

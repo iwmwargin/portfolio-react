@@ -1,7 +1,7 @@
 .i {
     display: flex;
     height: 100vh;
-    /* background-color: powderblue; */
+    background-color: lightskyblue;
 }
 
 .i-left {
@@ -47,6 +47,10 @@
     display: flex;
     align-items: center;
 }
+
+/* .i-desc {
+    font-size: 17px;
+} */
 
 .i-img {
     width: 100%;
